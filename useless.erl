@@ -15,8 +15,7 @@ hello() ->
 greet_and_add_two(X) ->
 	hello(),
 	add(X,2).
-	
-	
+
 greet(male, Name) ->
 	io:format("Hello, Mr. ~s!", [Name]);
 greet(female, Name) ->
